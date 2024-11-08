@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jerome Kalaw</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <style>
+      /* Full-height sections */
+      section {
+        height: 100vh;
+      }
+    </style>
+  </head>
+  <body
+    class="bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 font-sans"
+  >
+    <!-- Header -->
+    <header
+      class="bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-white fixed w-full z-10"
+    >
+      <div class="container mx-auto p-6 flex justify-between items-center">
+        <h1 class="text-3xl font-bold">JEROME KALAW</h1>
+        <nav class="flex space-x-6">
+          <a href="#about" class="hover:text-gray-600 dark:hover:text-gray-400"
+            >Objective</a
+          >
+          <a
+            href="#technical-skills"
+            class="hover:text-gray-600 dark:hover:text-gray-400"
+            >Technical Skills</a
+          >
+          <a
+            href="#projects"
+            class="hover:text-gray-600 dark:hover:text-gray-400"
+            >Project</a
+          >
+          <a
+            href="#contact"
+            class="hover:text-gray-600 dark:hover:text-gray-400"
+            >Contact</a
+          >
+        </nav>
+        <a
+          href="myResume.pdf"
+          class="bg-gray-900 dark:bg-gray-100 text-white dark:text-gray-900 py-2 px-6 rounded-lg hover:bg-gray-700 dark:hover:bg-gray-300"
+          target="_blank"
+        >
+          View My Resume
+        </a>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section
+      class="bg-gray-200 dark:bg-gray-800 py-20 flex items-center justify-center"
+    >
+      <div class="container mx-auto flex items-center justify-between">
+        <!-- Text Section -->
+        <div
+          class="text-center md:text-left w-full md:w-1/2 animate__animated animate__fadeIn"
+        >
+          <h2 class="text-4xl font-bold mb-4">Hello, I'm Jerome Kalaw</h2>
+          <p class="text-lg mb-8">
+            4th Year BS Information Technology student at National University -
+            Dasmarinas based in the Philippines.
+          </p>
+          <a
+            href="#projects"
+            class="bg-gray-900 dark:bg-gray-100 text-white dark:text-gray-900 py-2 px-6 rounded-lg hover:bg-gray-700 dark:hover:bg-gray-300"
+          >
+            View My Work
+          </a>
+        </div>
+
+        <!-- Image Section -->
+        <div
+          class="w-full md:w-1/2 flex justify-center md:justify-end mt-8 md:mt-0"
+        >
+          <img
+            src="profilepic.jpg"
+            alt="Jerome Kalaw"
+            class="w-2/3 md:w-1/2 lg:w-2/3 rounded-lg shadow-lg"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 flex items-center justify-center">
+      <div
+        class="container mx-auto text-center animate__animated animate__fadeIn animate__delay-1s"
+      >
+        <h2 class="text-3xl font-bold mb-6">Objective</h2>
+        <p class="max-w-xl mx-auto text-lg">
+          Seeking an IT internship to improve my technical skills in the IT
+          industry. Eager to gain hands-on experience in a collaborative
+          environment and contribute effectively to team goals.
+        </p>
+      </div>
+    </section>
+
+    <!-- technical skills -->
+    <!-- Technical Skills Section -->
+    <section id="technical-skills" class="bg-gray-100 dark:bg-gray-800 py-20">
+      <div
+        class="container mx-auto text-center animate__animated animate__fadeIn animate__delay-2s"
+      >
+        <h2 class="text-3xl font-bold mb-6">Technical Skills</h2>
+        <div class="max-w-3xl mx-auto text-left">
+          <ul
+            class="grid grid-cols-2 gap-4 text-lg text-gray-900 dark:text-gray-100"
+          >
+            <li>PHP</li>
+            <li>HTML/CSS</li>
+            <li>JavaScript</li>
+            <li>MySQL</li>
+            <li>Bootstrap</li>
+            <li>Flutter/Dart</li>
+            <li>jQuery</li>
+            <li>SQL</li>
+            <li>Networking</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- projects -->
+    <section id="projects" class="py-20">
+      <div
+        class="container mx-auto animate__animated animate__fadeIn animate__delay-2s"
+      >
+        <h2 class="text-3xl font-bold mb-10 text-center">Project</h2>
+
+        <!-- Project 1 -->
+        <div
+          class="flex flex-col md:flex-row items-center md:items-start mb-10"
+        >
+          <!-- Project Description -->
+          <div class="md:w-1/2 p-6 md:text-left text-center">
+            <h3 class="text-2xl font-bold mb-4">Librolite</h3>
+            <p class="text-gray-600 dark:text-gray-300 mb-4">
+              Librolite is a library management system built for public primary
+              schools in the Philippines to streamline the library processes.
+            </p>
+            <h4 class="text-1xl font-bold mb-4">Technology used:</h4>
+            <ul class="list-disc text-gray-600 dark:text-gray-300">
+              <li>PHP</li>
+              <li>HTML/CSS</li>
+              <li>Bootstrap</li>
+              <li>JQuery</li>
+              <li>Flutter Dart For Mobile App version</li>
+            </ul>
+          </div>
+
+          <!-- Project Image -->
+          <div class="md:w-1/2 p-6">
+            <img
+              src="librolite.png"
+              alt="Project Image"
+              class="w-full h-auto object-cover rounded-lg shadow-lg"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section
+      id="contact"
+      class="bg-gray-100 dark:bg-gray-800 py-20 flex items-center justify-center"
+    >
+      <div
+        class="container mx-auto text-center animate__animated animate__fadeIn animate__delay-3s"
+      >
+        <h2 class="text-3xl font-bold mb-6">Contact Me</h2>
+
+        <div class="max-w-lg mx-auto text-left">
+          <ul class="space-y-4 text-lg">
+            <li>
+              <strong>Email:</strong>
+              <a
+                href="kalawjc.personal@gmail.com"
+                class="text-gray-900 dark:text-gray-100 hover:underline"
+              >
+                kalawjc.personal@gmail.com
+              </a>
+            </li>
+            <li>
+              <strong>Phone:</strong>
+              <a
+                href="+63 994 948 3289"
+                class="text-gray-900 dark:text-gray-100 hover:underline"
+              >
+                +63 994 948 3289
+              </a>
+            </li>
+            <li>
+              <strong>Address:</strong>
+              <span class="text-gray-600 dark:text-gray-300">
+                Cavite, Philippines 4114
+              </span>
+            </li>
+            <li>
+              <strong>LinkedIn:</strong>
+              <a
+                href="https://www.linkedin.com/in/kalawjerome"
+                target="_blank"
+                class="text-gray-900 dark:text-gray-100 hover:underline"
+              >
+                https://www.linkedin.com/in/kalawjerome
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black dark:bg-gray-800 text-white dark:text-white py-6">
+      <div class="container mx-auto text-center">
+        <p>&copy; 2024 Jerome Kalaw</p>
+      </div>
+    </footer>
+  </body>
+</html>
